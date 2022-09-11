@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(2.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.navbar{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0; 
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    cursor: pointer;
+    border-radius: 50%;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.content{
+    width: 100%;
+    position: absolute; 
+    /* sayfanın kenarlarına göre kendini ayarlar */
+    top: 40%;
+    color:white;
+    text-align: center;
+}
+.content h1{
+    font-size: 65px;
+}
+.content p{
+    font-size: 20px auto;
+    /* alttan üstten 20px sağdan soldan auto */
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #6163b3;
+    font-size: 17px;
+}
+
+button:hover{
+    color: black;
+    transition: 1s; /*değişirken süre ekler. yumuşatır */
+
+}
+
+.navbar ul li a:hover{
+    box-shadow: 2px 10px #6163b3;
+    transition: 1s; 
+
+}
